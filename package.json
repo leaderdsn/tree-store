@@ -1,0 +1,12 @@
+{
+  "name": "tz",
+  "source": "src/index.ts",
+  "scripts": {
+    "clear": "rd /s /q dist",
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.1"
+  }
+}
